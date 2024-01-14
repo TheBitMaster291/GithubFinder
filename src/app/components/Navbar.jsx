@@ -12,7 +12,7 @@ const {isOpen,onOpen,onClose}=useDisclosure();
         <Image src="/logo.png" fill alt='github logo' sx={{filter:"invert(1)"}}/>
     </Box>
     <Box>
-        <Button size="md" colorScheme='whatsapp' onClick={onOpen}>
+        <Button size="md" colorScheme='teal' onClick={onOpen}>
             Search History
         </Button>
     </Box>

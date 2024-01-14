@@ -67,11 +67,11 @@ const Search = ({setUserData,setLoading}) => {
       <Input
       variant={"outline"}
       placeholder={"Type a username (i.e. TheBitMaster)"}
-      focusBorderColor='green.500'
+      focusBorderColor='teal.200'
       value={query}
       onChange={(e)=>setQuery(e.target.value)}
       />
-      <Button size='md' type='submit' colorScheme='whatsapp' mt={4}
+      <Button size='md' type='submit' colorScheme='teal' mt={4}
       disabled={!query} opacity={!query?0.5:1}
       >
         Search

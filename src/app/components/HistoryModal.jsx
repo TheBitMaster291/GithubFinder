@@ -83,10 +83,10 @@ const HistoryModal = ({ isOpen, onClose }) => {
 										href={user.url}
 										size={"sm"}
 										color='black'
-										bg='whatsapp.200'
+										bg='teal.400'
 										px={2}
 										borderRadius={4}
-										_hover={{ textDecoration: "none", bg: "whatsapp.300" }}
+										_hover={{ textDecoration: "none", bg: "teal.200" }}
 									>
 										Visit
 									</Link>

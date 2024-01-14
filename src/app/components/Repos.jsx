@@ -39,7 +39,7 @@ const Repos = ({ reposUrl }) => {
         letterSpacing={1.5}
         fontSize={"3xl"}
         fontWeight={"bold"}
-        color={"green.400"}
+        color={"teal.400"}
         mt={4}
       >
         REPOSITORIES
@@ -74,7 +74,7 @@ const Repos = ({ reposUrl }) => {
                 </Link>
                 <Badge
                   fontSize={"0.7em"}
-                  colorScheme={"whatsapp"}
+                  colorScheme={"teal"}
                   w={"min-content"}
                   textAlign={"center"}
                   px={1}
@@ -114,14 +114,14 @@ const Repos = ({ reposUrl }) => {
 
       {showMore && (
         <Flex justifyContent={"center"} my={4}>
-          <Button size={"md"} colorScheme={"whatsapp"} onClick={()=>setShowMore(false)}>
+          <Button size={"md"} colorScheme={"teal"} onClick={()=>setShowMore(false)}>
             Show Less
           </Button>
         </Flex>
       )}
       {!showMore && repos.length>5 && (
         <Flex justifyContent={"center"} my={4}>
-          <Button size={"md"} colorScheme={"whatsapp"} onClick={()=>setShowMore(true)}>
+          <Button size={"md"} colorScheme={"teal"} onClick={()=>setShowMore(true)}>
             Show More
           </Button>
         </Flex>
